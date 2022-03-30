@@ -1,7 +1,7 @@
 class Ciudad(): #Definimod la clase ciudad 
     def __init__(self, name) :#La clase ciudad cuenta con el atributo del nombre
         self.name = name
-        self.edificios =[] #los elementos dde la lista serán objetos de la clase edificio
+        self.edificios =[] #los elementos de la lista serán objetos de la clase edificio
         self.persona = []#los elementos de la lista serán de la clase persona
     #Mediante atributos le inducimos las relaciones de composición
     #si destruimos la ciudad (cataciclismo) desaparecen las personas y los edificios
@@ -13,6 +13,8 @@ class Ciudad(): #Definimod la clase ciudad
     def get_name(self): 
         return self.name
 
+
+    
     
     
 
