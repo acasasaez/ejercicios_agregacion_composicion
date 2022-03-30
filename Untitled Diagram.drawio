@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" modified="2022-03-30T19:29:46.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="B5_ohhe6YcgoDPGu8IwW" version="17.2.3" type="github">
+  <diagram id="vuqnKZwy_wFRdKaVKJ5a" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="hiTp5RDhJcaw9rqVUXH_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-1" value="Clase empresa" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="440" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-2" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hiTp5RDhJcaw9rqVUXH_-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-5" value="Clase Ciudad" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-6" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hiTp5RDhJcaw9rqVUXH_-5">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.637;entryY=1.069;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="hiTp5RDhJcaw9rqVUXH_-9" target="hiTp5RDhJcaw9rqVUXH_-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="190" />
+              <mxPoint x="449" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-9" value="Clase edificio" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-10" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hiTp5RDhJcaw9rqVUXH_-9">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.409;entryY=1.069;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="hiTp5RDhJcaw9rqVUXH_-13" target="hiTp5RDhJcaw9rqVUXH_-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="190" />
+              <mxPoint x="417" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-13" value="Clase Persona " style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-14" value="Nombre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hiTp5RDhJcaw9rqVUXH_-13">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="hiTp5RDhJcaw9rqVUXH_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-21" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-22" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-23" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="200" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-24" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-25" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hiTp5RDhJcaw9rqVUXH_-26" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
