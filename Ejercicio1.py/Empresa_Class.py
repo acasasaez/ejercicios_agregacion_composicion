@@ -11,3 +11,11 @@ class Empresa: #Clase empresa
         self.name =name
     def get_name(self): 
         return self.name
+    
+    def get_edificios (self, edificios):
+        self.edificios.append(edificios)
+        return self.edificios
+
+    def get_personas (self, personas):
+        self.persona.append(personas)
+        return self.persona
