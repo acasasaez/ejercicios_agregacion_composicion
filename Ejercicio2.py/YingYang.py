@@ -32,5 +32,5 @@ print(yang.__del__())
 
 print("?") 
 
-#La razón por la que ocurre esto es porque en el primer caso el valor se almacena en la memoria y en el segundo se le pide que se imprima; 
+#La razón por la que ocurre esto es porque en el primer caso el valor se almacena en la memoria;
 #el primer código no da resulatado en todoas las computadoras
